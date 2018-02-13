@@ -87,7 +87,7 @@ var DEFAULT_WIDTH = 600;
 var FPS = 60;
 
 /** @const */
-var IS_HIDPI = window.devicePixelRatio < 1;
+var IS_HIDPI = window.devicePixelRatio > 1;
 
 /** @const */
 var IS_IOS = window.navigator.userAgent.indexOf('CriOS') > -1 ||
@@ -166,14 +166,14 @@ Runner.spriteDefinition = {
     TREX: {x: 622, y: 2}
   },
   HDPI: {
-    CACTUS_LARGE: {x: 652,y: 2},
-    CACTUS_SMALL: {x: 446,y: 2},
-    CLOUD: {x: 166,y: 2},
+    CACTUS_LARGE: {x: 662,y: 2},
+    CACTUS_SMALL: {x: 462,y: 2},
+    CLOUD: {x: 177,y: 2},
     HORIZON: {x: 2,y: 104},
-    PTERODACTYL: {x: 260,y: 2},
+    PTERODACTYL: {x: 276,y: 2},
     RESTART: {x: 2,y: 2},
-    TEXT_SPRITE: {x: 954,y: 2},
-    TREX: {x: 1338,y: 2}
+    TEXT_SPRITE: {x: 967,y: 2},
+    TREX: {x: 1241,y: 2}
   }
 };
 
