@@ -74,8 +74,16 @@ html,body{
   text-decoration-color: black; 
 }
 
-.vs-heart {
+.vs-heart-main a img {
+    width: 50%;
+}
+
+.vs-heart,
+.vs-heart-main {
   text-align: center;
+}
+
+.vs-heart {
   margin-top: 20px;
 }
 
